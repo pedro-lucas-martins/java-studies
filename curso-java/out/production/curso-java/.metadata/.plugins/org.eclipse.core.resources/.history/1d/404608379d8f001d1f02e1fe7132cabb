@@ -1,0 +1,51 @@
+import java.util.Scanner;
+public class Exec4 
+{
+	public static void main (String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Digite um numero:");
+		int day = input.nextInt();
+		String saida;
+		
+		switch(day)
+		{
+		case 1:
+			saida = "Segunda";
+			break;
+			
+		case 2:
+			saida = "Terca";
+			break;
+			
+		case 3:
+			saida = "Quarta";
+			break;
+			
+		case 4:
+			saida = "Quinta";
+			break;
+			
+		case 5:
+			saida = "Sexta";
+			break;
+			
+		case 6:
+			saida = "Sabado";
+			break;
+			
+		case 7:
+			saida = "Domingo";
+			break;
+			
+		default:
+			saida = "valor invalido";
+			break;
+		}
+		
+		System.out.printf("Hoje e %s!%n", saida);
+	
+		input.close();
+	}
+}

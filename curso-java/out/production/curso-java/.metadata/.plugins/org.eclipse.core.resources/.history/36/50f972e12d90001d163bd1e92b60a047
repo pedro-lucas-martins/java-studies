@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Exec5 
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		
+		int x = 5;
+		
+		while (x != 5) 
+		{
+			System.out.println(x);
+			x -= 1;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+Formatacao:
+-  %s para string
+-  %d para int
+-  %f para double ou float (%.2f para duas casas decimais)
+
+Entrada de dados:
+-  import java.util.Scanner;
+-  para utilizar, deve-se: Scanner <varaivel> = new Scanner(System.in);
+-  depois do uso, precisa-se desalocar a memoria: <variavel>.close();
+-  para ler uma String: <variavel>.next();
+-  para ler um int: <variavel>.nextInt();
+-  para ler uma frase inteira, necessita-se de <varaivel>.nextLine();
+
+Tratamento de string:
+- toLowerCase:   transforma a string em minusculos
+- toUpperCase:   transforma a string em maiusculos
+- trim():   retira os espacos desnecessarios na string
+- substring(<posicao inicial da nova string>, <posicao final da nova string>) OBS: e possivel nao colocar inicio ou fim
+- replace(<caracter que sera substituido>, <novo caracter>)
+- indexOf(<substring>):   Mostra a primeira posicao em que a substring aparece
+- lastIndexOf(<substring>):   Mostra a ultima posicao em que a substring aparece
+- split(<paramatro para separar a string>):    Separa a string baseado no parametro inserido
+            String[] vect = <nomeDaVariavel>.split(" ");
+
+Comentarios:
+- // linha inteira
+- /* - codigo - */  pedaco especifico de um codigo

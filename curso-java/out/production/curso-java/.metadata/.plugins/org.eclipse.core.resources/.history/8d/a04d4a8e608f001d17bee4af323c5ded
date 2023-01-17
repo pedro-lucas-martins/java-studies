@@ -1,0 +1,4 @@
+Formatacao:
+-  %s para string
+-  %d para int
+-  %f para double ou float (%.2f para duas casas decimais)

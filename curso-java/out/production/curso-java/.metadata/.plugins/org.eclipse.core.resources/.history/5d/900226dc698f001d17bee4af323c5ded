@@ -1,0 +1,9 @@
+Formatacao:
+-  %s para string
+-  %d para int
+-  %f para double ou float (%.2f para duas casas decimais)
+
+Entrada de dados:
+-  import java.util.Scanner;
+-  para utilizar, deve-se: Scanner <varaivel> = new Scanner(System.in);
+-  depois do uso, precisa-se desalocar a memoria: <variavel>.close();

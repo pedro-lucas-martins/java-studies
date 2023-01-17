@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Exec2 
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		Double valor = input.nextDouble();
+		System.out.println(valor);
+		input.close();
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		double x  = 10.3213;
+		System.out.printf("%.2f%n",x);
+		System.out.println("Ola, mundo!");
+		System.out.printf("%.4f%n",x);
+		System.out.println("Sua mae e " + "MINHA");
+
+	}
+
+}
